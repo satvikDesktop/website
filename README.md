@@ -32,7 +32,7 @@ This way we have the permission of the user to play the video  without having th
 
 **Solution :**<br>
 
-Firstly I have created a simple sort of a landing page that asks the user for permission with the "accept" button<br>
+Firstly I have created a simple sort of a landing page that asks the user for permission with the `accept` button<br>
 My "landing page" asking for cookies is overlayed over the rick roll video so that it's hidden<br>
 ```html
 <div class="cookies" id="permission">
@@ -40,24 +40,24 @@ My "landing page" asking for cookies is overlayed over the rick roll video so th
            <br>By using our website, you agree to our Privacy Policy and our Cookies Policy.
         </p>
 ```
-I have added an event listener listening for a click from the user on the button which then unmuted the previously pause video and the video starts playing when the button is click  <br>
+I have added an `event listener` listening for a click from the user on the button which then unmuted the previously pause video and the video starts playing when the button is click  <br>
 ```javascript
 cookieConsent.addEventListener('click', () => {
         player.seekTo(0);
         player.unMute();    
     });
 ```
-The "accept" cookies button is actually connect to the hide() function in my javascript file which hides the overlay on click of the button <br>
+The `accept` cookies button is actually connect to the `hide()` function in my javascript file which hides the overlay on click of the button <br>
 ```html
 <button onclick="hide()" id="accept">Accept</button></center>
 ```
 I have also disabled any control over the video , you cannot really take off the pause and youtube logo from the embed but again there is a workaround:<br>
 
-I have taken the iframe embed and in my css and made it so that the pointer cannot do anything over the video <br>
+I have taken the `iframe` embed and in my css and made it so that the pointer cannot do anything over the video <br>
 ```css
 .ytplayer{
  pointer-events: none;
 }
 ```
-
+And in the end so that its not obvious that the link to my website is some sort of rick roll the name should be totally unrelated .
 
