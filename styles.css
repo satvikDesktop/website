@@ -53,3 +53,10 @@ button{
   color: #ffffff !important;
   font-size: 5em;
 }
+#link{
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  text-decoration: none;
+  text-decoration: underline;
+  color: grey;
+}
