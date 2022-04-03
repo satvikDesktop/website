@@ -1,7 +1,4 @@
 # rick roll website
-[![GitHub issues](https://img.shields.io/github/issues/satvikDesktop/website?color=purple&style=for-the-badge)](https://github.com/satvikDesktop/website/issues)
-[![GitHub forks](https://img.shields.io/github/forks/satvikDesktop/website?color=purple&style=for-the-badge)](https://github.com/satvikDesktop/website/network)
-[![GitHub stars](https://img.shields.io/github/stars/satvikDesktop/website?color=purple&style=for-the-badge)](https://github.com/satvikDesktop/website/stargazers)
 
 ### video autoplayer using vanilla Javascript and CSS
 
